@@ -12,7 +12,7 @@ This repository contains a Python implementation of a maze solving algorithm for
 # How to run the project
 ```
 cd ~/catkin_ws/src
-git clone 
+git clone https://github.com/shiru28/turtlebot_maze_solving.git
 cd ..
 catkin_make
 source devel/setup.bash
