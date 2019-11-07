@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg = "turtlebot_maze_solving"
+          type = "record_odom_data.py"
+          name = "record_odom_action"
+          output = "screen"/>
+
+    <node pkg = "turtlebot_maze_solving"
+          type = "get_message_service_server.py"
+          name = "get_direction_message_service"
+          output = "screen"/>
+
+    <node pkg = "turtlebot_maze_solving"
+          type = "main.py"
+          name = "turtlebot_maze_solving"
+          output = "screen"/>
+</launch>
